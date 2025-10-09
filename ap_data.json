@@ -1,0 +1,238 @@
+{
+    "Seventh": {
+        "Requirements": {
+            "Arts": [
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Art History",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                }
+            ],
+            "Humanities": [
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Latin",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                }
+            ],
+            "Natural Sciences and Engineering": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Physics C: Electricity and Magnetism",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                }
+            ],
+            "Quantitative Reasoning": [
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                }
+            ],
+            "Social Sciences": [
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Government and Politics: Comparative",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                }
+            ],
+            "Elective Requirement Only": [
+                
+            ],
+            "No Credit": [
+
+            ]
+        }
+    }
+}
