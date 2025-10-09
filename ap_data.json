@@ -228,10 +228,81 @@
                 }
             ],
             "Elective Requirement Only": [
-                
+                {
+                    "course": "African American Studies",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "English Language and Composition",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "English Literature and Composition",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "Human Geography",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "United States Government and Politics",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                },
+                {
+                    "course": "World History: Modern",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    }
+                }
             ],
             "No Credit": [
-
+                {
+                    "course": "Precalculus"
+                },
+                {
+                    "course": "Research"
+                },
+                {
+                    "course": "Seminar"
+                }
             ]
         }
     }
