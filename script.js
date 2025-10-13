@@ -18,29 +18,29 @@ function compareAPs(userCourses, requirements) {
         let found = false;
 
         for (const [requirement, courses] of Object.entries(requirements)) {
-      for (const courseObj of courses) {
-        if (courseObj.course === userCourse.course) {
-          found = true;
-          let status = "no credit";
+          for (const courseObj of courses) {
+            if (courseObj.course === userCourse.course) {
+              found = true;
+              let status = "no credit";
 
-          if (courseObj.score && courseObj.score[userCourse.score]) {
-            status = courseObj.score[userCourse.score];
-          } else if (requirement === "No Credit") {
-            status = "no credit";
-          }
+              if (courseObj.score && courseObj.score[userCourse.score]) {
+                status = courseObj.score[userCourse.score];
+              } else if (requirement === "No Credit") {
+                status = "no credit";
+              }
 
-          if (!result[requirement]) {
-            result[requirement] = [];
-          }
+              if (!result[requirement]) {
+                result[requirement] = [];
+              }
 
-          result[requirement].push({
-            course: userCourse.course,
-            score: userCourse.score,
-            status: status
-          });
+              result[requirement].push({
+                course: userCourse.course,
+                score: userCourse.score,
+                status: status
+              });
 
-          break; // Stop the loop for courses in that category
-        }
+              break; // Stop the loop for courses in that category
+            }
       }
 
       if (found) break; // If course is found, don't search other categories
