@@ -1,4 +1,28 @@
 {
+    "Revelle": {
+
+    },
+    
+    "John Muir": {
+
+    },
+
+    "Thurgood Marshall": {
+
+    },
+
+    "Earl Warren": {
+
+    },
+    
+    "Elanor Roosevelt": {
+
+    },
+
+    "Sixth": {
+
+    },
+
     "Seventh": {
         "Requirements": {
             "Arts": [
@@ -305,5 +329,9 @@
                 }
             ]
         }
+    },
+
+    "Eighth": {
+        
     }
 }
