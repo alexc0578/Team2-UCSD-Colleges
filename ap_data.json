@@ -4,6 +4,9 @@
     },
     
     "John Muir": {
+        "Requirements": {
+            
+        }
 
     },
 
@@ -16,7 +19,114 @@
     },
     
     "Elanor Roosevelt": {
+        "Requirements": {
+            "Quantitative and Formal Skills": [
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                }
+            ],
+            "Natural Sciences": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "meets natural science requirement",
+                        "4": "meets natural science requirement",
+                        "5": "meets natural science requirement"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "meets natural science requirement",
+                        "4": "meets natural science requirement",
+                        "5": "meets natural science requirement"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "meets one of two courses required in natural science",
+                        "4": "meets one of two courses required in natural science",
+                        "5": "meets one of two courses required in natural science"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score": {
+                        "3": "meets natural science requirement",
+                        "4": "meets natural science requirement",
+                        "5": "meets natural science requirement"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "meets natural science requirement",
+                        "4": "meets natural science requirement",
+                        "5": "meets natural science requirement"
+                    }
+                },
+                {
+                    "course": "Physics C: Electricity and Magnetism",
+                    "score": {
+                        "3": "meets one of two courses required in natural science",
+                        "4": "meets one of two courses required in natural science",
+                        "5": "meets one of two courses required in natural science"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "One of two courses required in natural science",
+                        "4": "One of two courses required in natural science",
+                        "5": "One of two courses required in natural science"
+                    }
+                }
+            ],
+            "Language": [
 
+            ],
+            "Fine Arts": [
+
+            ]
+        }
     },
 
     "Sixth": {
@@ -332,6 +442,6 @@
     },
 
     "Eighth": {
-        
+
     }
 }

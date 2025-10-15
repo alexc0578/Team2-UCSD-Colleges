@@ -13,26 +13,31 @@ const testCourses = [
 function compareAPs(userCourses, requirements) {
     const result = {};
 
-    // Loop through list of user's classes
+    // Loop through list of user's AP courses
     userCourses.forEach(userCourse => {
         let found = false;
 
+        // Loop through the list of courses for each requirement
         for (const [requirement, courses] of Object.entries(requirements)) {
           for (const courseObj of courses) {
+            // Check if current user course matches a requirement-satisfying course
             if (courseObj.course === userCourse.course) {
               found = true;
-              let status = "no credit";
+              let status = "no credit"; // No credit = default status
 
+              // Check if valid score exists for current course
               if (courseObj.score && courseObj.score[userCourse.score]) {
-                status = courseObj.score[userCourse.score];
+                status = courseObj.score[userCourse.score]; // Change status based on score ("parcial/complete")
               } else if (requirement === "No Credit") {
                 status = "no credit";
               }
 
+              // Initialize the requirement status to result if not added already
               if (!result[requirement]) {
                 result[requirement] = [];
               }
 
+              // Add the course comparison result to corresponding requirement
               result[requirement].push({
                 course: userCourse.course,
                 score: userCourse.score,
@@ -46,7 +51,7 @@ function compareAPs(userCourses, requirements) {
       if (found) break; // If course is found, don't search other categories
     }
 
-    // If course not found in any category
+    // If course not found in any category, mark as "unrecognized"
     if (!found) {
       if (!result["Unrecognized"]) {
         result["Unrecognized"] = [];
