@@ -9,21 +9,20 @@ const testCourses = [
     { course: "United States History", score: 3}
 ]
 
-// Main function to compare AP courses with college GEs
+// Main function to compare AP courses with a SINGLE COLLEGE's requirements
 function compareAPs(userCourses, requirements) {
     const result = {};
 
-    // Loop through list of user's AP courses
     userCourses.forEach(userCourse => {
         let found = false;
 
-        // Loop through the list of courses for each requirement
+        // Loop through the requirements of this college
         for (const [requirement, courses] of Object.entries(requirements)) {
           for (const courseObj of courses) {
             // Check if current user course matches a requirement-satisfying course
             if (courseObj.course === userCourse.course) {
               found = true;
-              let status = "no credit"; // No credit = default status
+              let status = "no credit"; //default status
 
               // Check if valid score exists for current course
               if (courseObj.score && courseObj.score[userCourse.score]) {

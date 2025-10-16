@@ -24,41 +24,41 @@
                 {
                     "course": "Computer Science A",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets two-course requirement in quantitative/formal skills",
+                        "4": "meets two-course requirement in quantitative/formal skills",
+                        "5": "meets two-course requirement in quantitative/formal skills"
                     }
                 },
                 {
                     "course": "Computer Science Principles",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets two-course requirement in quantitative/formal skills",
+                        "4": "meets two-course requirement in quantitative/formal skills",
+                        "5": "meets two-course requirement in quantitative/formal skills"
                     }
                 },
                 {
                     "course": "Calculus AB",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "Meets one of two courses required in quantitative/formal skills",
+                        "4": "Meets one of two courses required in quantitative/formal skills",
+                        "5": "Meets one of two courses required in quantitative/formal skills"
                     }
                 },
                 {
                     "course": "Calculus BC",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets two-course requirement in quantitative/formal skills",
+                        "4": "meets two-course requirement in quantitative/formal skills",
+                        "5": "meets two-course requirement in quantitative/formal skills"
                     }
                 },
                 {
                     "course": "Statistics",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "meets one of two courses required in quantitative/formal skills",
+                        "4": "meets one of two courses required in quantitative/formal skills",
+                        "5": "meets one of two courses required in quantitative/formal skills"
                     }
                 }
             ],
@@ -114,17 +114,201 @@
                 {
                     "course": "Physics C: Mechanics",
                     "score": {
-                        "3": "One of two courses required in natural science",
-                        "4": "One of two courses required in natural science",
-                        "5": "One of two courses required in natural science"
+                        "3": "meets one of two courses required in natural science",
+                        "4": "meets one of two courses required in natural science",
+                        "5": "meets one of two courses required in natural science"
                     }
                 }
             ],
             "Language": [
-
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "meets language proficiency requirement",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                }
             ],
             "Fine Arts": [
-
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "meets fine arts requirement",
+                        "4": "meets fine arts requirement",
+                        "5": "meets fine arts requirement"
+                    }
+                },
+                {
+                    "course": "Art History",
+                    "score": {
+                        "3": "meets fine arts requirement",
+                        "4": "meets fine arts requirement",
+                        "5": "meets fine arts requirement"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "meets fine arts requirement",
+                        "4": "meets fine arts requirement",
+                        "5": "meets fine arts requirement"
+                    }
+                }
+            ],
+            "Elective Requirement Only": [
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "English Language and Composition",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "8 units of elective credit",
+                        "5": "8 units of elective credit"
+                    }
+                },
+                {
+                    "course": "English Literature and Composition",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "8 units of elective credit",
+                        "5": "8 units of elective credit"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "may apply as 1 course toward Regional Specialization (See ERC Academic Adviser)",
+                        "4": "may apply as 1 course toward Regional Specialization (See ERC Academic Adviser)",
+                        "5": "may apply as 1 course toward Regional Specialization (See ERC Academic Adviser)"
+                    }
+                },
+                {
+                    "course": "Government and Politics: Comparative",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Human Geography",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Latin",
+                    "score": {
+                        "3": "4 units of elective credit for each exam",
+                        "4": "4 units of elective credit for each exam",
+                        "5": "4 units of elective credit for each exam"
+                    }
+                },
+                {
+                    "course": "United States Government and Politics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "World History: Modern",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                }
+            ],
+            "No Credit": [
+                {
+                    "course": "Research"
+                },
+                {
+                    "course": "Seminar"
+                }
             ]
         }
     },
