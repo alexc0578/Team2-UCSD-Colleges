@@ -1,15 +1,7 @@
 // Load College AP Requirements JSON
 const data = require('./ap_data.json');
 
-// Test input AP classes and scores
-const testCourses = [
-    { course: "Calculus AB", score: 4},
-    { course: "Computer Science Principles", score: 5},
-    { course: "Spanish Language and Culture", score: 5},
-    { course: "United States History", score: 3}
-]
-
-// Main function to compare AP courses with a SINGLE COLLEGE's requirements
+// Function to compare AP courses for an INDIVIDUAL COLLEGE's requirements
 function compareAPs(userCourses, requirements) {
     const result = {};
 
@@ -66,13 +58,22 @@ function compareAPs(userCourses, requirements) {
   return result;
 }
 
-// Test in Console
-const output = compareAPs(testCourses, data.Seventh.Requirements);
+// Function to compare AP courses across ALL COLLEGES' requirements
+function compareAllAPs(userCourses, requirements) {
+  const collegeResults = [];
 
-console.log("AP Course Comparison:");
-for (const [requirement, courses] of Object.entries(output)) {
-  console.log(`\n${requirement}:`);
-  courses.forEach(c => {
-    console.log(` - ${c.course} (Score: ${c.score}) → ${c.status}`);
-  });
+  // Loop through colleges in requirements and check for that AP course using compareAPs
+  for (const [collegeName, collegeData] of Object.entries(requirements)) {
+    if (collegeData.Requirements && Object.keys(collegeData.Requirements.length > 0)) {
+      collegeResults[collegeName] = compareAPs(userCourses, collegeData.Requirements);
+    } else {
+      collegeResults[collegeName] = "No AP equivalent in requirement Data";
+    }
+  }
+
+  // Returns a nested object
+  return collegeResults;
 }
+
+// Export compareAllAPs function
+module.exports = { compareAllAPs };
