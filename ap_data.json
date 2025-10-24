@@ -1,6 +1,305 @@
 {
     "Revelle": {
+        "Requirements": {
+            "Mathematics":[
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "meets one of three courses required in mathematics",
+                        "4": "meets one of three courses required in mathematics",
+                        "5": "meets one of three courses required in mathematics"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "meets two of three courses required in mathematics",
+                        "4": "meets two of three courses required in mathematics",
+                        "5": "meets two of three courses required in mathematics"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "meets two of three courses required in mathematics",
+                        "4": "meets two of three courses required in mathematics",
+                        "5": "meets two of three courses required in mathematics"
+                    }
+                }
+            ],
 
+            "Natural Science":[
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "meets biology requirement & meets one of two courses required in natural science",
+                        "4": "meets biology requirement & meets natural science requirement",
+                        "5": "meets biology requirement & meets natural science requirement"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "meets chemistry requirement & meets one of two courses required in natural science",
+                        "4": "meets chemistry requirement & meets one of two courses required in natural science",
+                        "5": "meets biology requirement & meets natural science requirement"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "meets one of two courses required in natural science",
+                        "5": "meets one of two courses required in natural science"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score": {
+                        "3": "meets physics requirement & meets one of two courses required in natural science",
+                        "4": "meets physics requirement & meets one of two courses required in natural science",
+                        "5": "meets physics requirement & meets one of two courses required in natural science"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "meets physics requirement & meets one of two courses required in natural science",
+                        "4": "meets physics requirement & meets one of two courses required in natural science",
+                        "5": "meets physics requirement & meets one of two courses required in natural science"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "meets physics requirement or meets one of two courses required in natural science",
+                        "4": "meets physics requirement or meets one of two courses required in natural science",
+                        "5": "meets physics requirement or meets one of two courses required in natural science"
+                    }
+                },
+                {
+                    "course": "Physics C: Electricity and Magnetism",
+                    "score": {
+                        "3": "meets physics requirement or meets one of two courses required in natural science",
+                        "4": "meets physics requirement or meets one of two courses required in natural science",
+                        "5": "meets physics requirement or meets one of two courses required in natural science"
+                    }
+                }
+            ],
+
+            "Social Sience":[
+                {
+                    "course": "African American Studies",
+                    "score": {
+                        "3": "meets one of two courses required in social science",
+                        "4": "meets one of two courses required in social science",
+                        "5": "meets one of two courses required in social science"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "meets one of two courses required in social science",
+                        "4": "meets one of two courses required in social science",
+                        "5": "meets one of two courses required in social science"
+                    }
+                },
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "meets one of two courses required in social science",
+                        "4": "meets one of two courses required in social science",
+                        "5": "meets one of two courses required in social science"
+                    }
+                },
+                {
+                    "course": "United States Government and Politics",
+                    "score": {
+                        "3": "meets one of two courses required in social science",
+                        "4": "meets one of two courses required in social science",
+                        "5": "meets one of two courses required in social science"
+                    }
+                },
+                {
+                    "course": "Government and Politics: Comparative",
+                    "score": {
+                        "3": "meets one of two courses required in social science",
+                        "4": "meets one of two courses required in social science",
+                        "5": "meets one of two courses required in social science"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "meets social science requirement",
+                        "4": "meets social science requirement",
+                        "5": "meets social science requirement"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "meets one of two courses required in social science",
+                        "4": "meets one of two courses required in social science",
+                        "5": "meets one of two courses required in social science"
+                    }
+                }
+            ],
+            "Fine Arts":[
+                {
+                    "course": "Art History",
+                    "score": {
+                        "3": "meets fine arts requirement",
+                        "4": "meets fine arts requirement",
+                        "5": "meets fine arts requirement"
+                    }
+                },
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "meets fine arts requirement",
+                        "4": "meets fine arts requirement",
+                        "5": "meets fine arts requirement"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "meets fine arts requirement",
+                        "4": "meets fine arts requirement",
+                        "5": "meets fine arts requirement"
+                    }
+                }
+            ],
+            "Language":[
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    },
+                    "course": "German Language and Culture",
+                    "score": {
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "meets language proficiency requirement",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+
+                }
+            ],
+            "Elective Requirement Only": [
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "English Composition & Literature",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "English Language & Composition",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "World History",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Human Geography",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Latin",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                }    
+            ],
+            "No Credit": [
+                {
+                    "course": "Research"
+                },
+                {
+                    "course": "Precalculus"
+                },
+                {
+                    "course": "Seminar"
+                }
+            ]
+        }
     },
     
     "John Muir": {
