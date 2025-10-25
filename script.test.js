@@ -14,7 +14,7 @@ const output = compareAllAPs(testCourses, data)
 
 console.log("AP Course Comparison:");
 for (const [college, result] of Object.entries(output)) {
-  console.log(`\n${college} College:`);
+  console.log(`\n--------------------${college} College--------------------`);
   if (typeof result == "string") {
     console.log(result);
     continue;
@@ -23,7 +23,7 @@ for (const [college, result] of Object.entries(output)) {
   for (const [requirement, courses] of Object.entries(result)) {
     console.log(`\n${requirement}:`);
     courses.forEach(c => {
-      console.log(` - ${c.course}: Score of ${c.score} == ${c.status}`);
+      console.log(` - ${c.course}: Score of ${c.score} ${c.status}`);
     })
   }
 
