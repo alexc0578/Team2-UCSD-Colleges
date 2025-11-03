@@ -603,7 +603,326 @@
     },
 
     "Earl Warren": {
-
+        "Requirements": {
+            "Quantitative and Formal Skills": [
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "two courses towards Science and Technology PofC",
+                        "4": "two courses toward quantitative/formal skills and/or Science & Technology PofC",
+                        "5": "two courses toward quantitative/formal skills and/or Science & Technology PofC"
+                    }
+                },
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "twp courses toward Science and Technology PofC",
+                        "4": "two courses toward quantitative/formal skills and/or Science & Technology PofC",
+                        "5": "two courses toward quantitative/formal skills and/or Science & Technology PofC"
+                    }
+                },
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "one course toward Formal Skills requirement",
+                        "4": "one course toward Formal Skills requirement and/or Math PofC",
+                        "5": "one course toward Formal Skills requirement and/or Math PofC"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "two courses toward formal Skills requirement and/or Math PofC",
+                        "4": "two courses toward formal Skills requirement and/or Math PofC",
+                        "5": "two courses toward formal Skills requirement and/or Math PofC"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "one course toward Formal Skills",
+                        "4": "one course toward Formal Skills",
+                        "5": "one course toward Formal Skills"
+                    }
+                }
+            ],
+            "Natural Science": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "two courses toward Fundamentals of Biology or Science and Technology PofC",
+                        "4": "two courses toward Biology, Fundamentals of Biology, or Science and Technology PofC",
+                        "5": "two courses toward Biology, Fundamentals of Biology, or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "two courses toward Science and Technology PofC",
+                        "4": "two courses toward Science and Technology PofC",
+                        "5": "two courses toward Chemistry or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score": {
+                        "3": "two courses toward Science and Technology PofC",
+                        "4": "two courses toward Science and Technology PofC",
+                        "5": "two courses toward Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "two courses toward Science and Technology PofC",
+                        "4": "two courses toward Science and Technology PofC",
+                        "5": "two courses toward Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "one courses toward Science and Technology PofC",
+                        "4": "one courses toward Physics or Science and Technology PofC",
+                        "5": "one courses toward Physics or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics C: Electricity and Magnetism",
+                    "score": {
+                        "3": "one courses toward Science and Technology PofC",
+                        "4": "one courses toward Physics or Science and Technology PofC",
+                        "5": "one courses toward Physics or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "one course toward Science and Technology PofC",
+                        "4": "one course toward Science and Technology PofC",
+                        "5": "one course toward Science and Technology PofC"
+                    }
+                }
+            ],
+            "Language": [
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "4": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "5": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "4": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "5": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "two courses for European Studies PofC or one for the same Area Study",
+                        "4": "two courses for European Studies PofC or one for the same Area Study",
+                        "5": "two courses for European Studies PofC or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "two courses for European Studies PofC or one for the same Area Study",
+                        "4": "two courses for European Studies PofC or one for the same Area Study",
+                        "5": "two courses for European Studies PofC or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "3": "two courses for European Studies PofC or one for the same Area Study",
+                        "4": "two courses for European Studies PofC or one for the same Area Study",
+                        "5": "two courses for European Studies PofC or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "two courses toward a Chicanx/LatinX, Latin American, or Euro Studies PofC OR one of the same Humanities-only Area Study",
+                        "4": "two courses toward a Chicanx/LatinX, Latin American, or Euro Studies PofC OR one of the same Humanities-only Area Study",
+                        "5": "two courses toward a Chicanx/LatinX, Latin American, or Euro Studies PofC OR one of the same Humanities-only Area Study"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "two courses for Chicanx/LatinX, Latin American, or Euro Studies PofC, OR one for the same Humanities-only Area Study",
+                        "4": "two courses for Chicanx/LatinX, Latin American, Euro, Literature, or Humanities PofC, OR one course for the same Humanities-only Area Study",
+                        "5": "two courses for Chicanx/LatinX, Latin American, Euro, Lit, or Humanities PofC, OR one course for the same Humanities-only Area Study"
+                    }
+                },
+                {
+                    "course": "Latin: Literature",
+                    "score": {
+                        "3": "one course toward Humanities or Literature PofC or Area Study",
+                        "4": "one course toward Humanities or Literature PofC or Area Study",
+                        "5": "one course toward Humanities or Literature PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Latin: Virgil",
+                    "score": {
+                        "3": "one course toward Humanities or Literature PofC or Area Study",
+                        "4": "one course toward Humanities or Literature PofC or Area Study",
+                        "5": "one course toward Humanities or Literature PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "English Composition & Literature",
+                    "score": {
+                        "3": "two courses toward Humanities or Literature PofC or one course Area Study",
+                        "4": "two courses toward Humanities or Literature PofC or one course Area Study",
+                        "5": "two courses toward Humanities or Literature PofC or one course Area Study"
+                    }
+                }
+            ],
+            "Fine Arts": [
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "4": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "5": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Art History",
+                    "score": {
+                        "3": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "4": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "5": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "two courses toward Humanities or Music PofC or one toward the same Area Study",
+                        "4": "two courses toward Humanities or Music PofC or one toward the same Area Study",
+                        "5": "two courses toward Humanities or Music PofC or one toward the same Area Study"
+                    }
+                }
+            ],
+            "Social Sciences": [
+                {
+                    "course": "African American Studies",
+                    "score": {
+                        "3": "one course toward African-American Studies PofC or Area Studies",
+                        "4": "one course toward African-American Studies PofC or Area Studies",
+                        "5": "one course toward African-American Studies PofC or Area Studies"
+                    }
+                },
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "5": "one course toward Economics or Perspectives of Social Science PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "5": "one course toward Economics or Perspectives of Social Science PofC or Economics Area Study"
+                    }
+                },
+                {
+                    "course": "United States Government and Politics",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "5": "one course toward Perspectives of Social Science or Political Science PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "two courses toward History or Humanities PofC or Area Study",
+                        "4": "two courses toward History or Humanities PofC or Area Study",
+                        "5": "two courses toward History or Humanities PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "two courses toward History, European Studies or Humanities PofC or Area Study",
+                        "4": "two courses toward History, European Studies or Humanities PofC or Area Study",
+                        "5": "two courses toward History, European Studies or Humanities PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "World History",
+                    "score": {
+                        "3": "two courses toward History or Humanities PofC or Area Study",
+                        "4": "two courses toward History or Humanities PofC or Area Study",
+                        "5": "two courses toward History or Humanities PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Government and Politics: Comparative",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "5": "one course toward Perspectives of Social Science or Political Science PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science or Psychology PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science or Psychology PofC or Psychology Area Study",
+                        "5": "one course toward Perspectives of Social Science or Psychology PofC or Psychology Area Study"
+                    }
+                }
+            ],
+            "Elective Requirement Only": [
+                {
+                    "course": "English Language & Composition",
+                    "score": {
+                        "3": "Elective credit only",
+                        "4": "Elective credit only",
+                        "5": "Elective credit only"
+                    }
+                },
+                {
+                    "course": "Human Geography",
+                    "score": {
+                        "3": "Elective credit only",
+                        "4": "Elective credit only",
+                        "5": "Elective credit only"
+                    }
+                }
+            ],
+            "No Credit": [
+                {
+                    "course": "Research",
+                    "score": {
+                        "3": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "4": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "5": "Satisfies ELWR Requirement. Not eligible for credit"
+                    }
+                },
+                {
+                    "course": "Seminar",
+                    "score": {
+                        "3": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "4": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "5": "Satisfies ELWR Requirement. Not eligible for credit"
+                    }
+                }
+            ]
+        }
     },
     
     "Elanor Roosevelt": {
