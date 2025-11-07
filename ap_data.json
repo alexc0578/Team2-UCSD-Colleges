@@ -925,7 +925,7 @@
         }
     },
     
-    "Elanor Roosevelt": {
+    "Eleanor Roosevelt": {
         "Requirements": {
             "Quantitative and Formal Skills": [
                 {
@@ -1533,6 +1533,214 @@
     },
 
     "Eighth": {
+        "Requirements" : {
+            "Arts":[
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                }
+            ],
+            "Humanities": [
+                {
+                    "course": "African American Studies",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "partial",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Latin (Virgil/Literature)",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                }
+            ],
+            "Natural Sciences": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score" : {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "complete",
+                        "4": "complete",
+                        "5": "complete"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                },
+                { 
+                    "course": "Physics C: Electricity and Magnetism",
+                     "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"     
+                    }
+                }
+            ],
+            "Social Sciences": [
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                    }
+                 },
+                 {
+                      "course": "Microeconomics",
+                     "score": {
+                        "3": "partial",
+                        "4": "partial",
+                        "5": "partial"
+                     }
+                 },
+                 {
+                    "course": "Psychology",
+                     "score": {
+                        "3": "elective credit",
+                        "4": "partial",
+                        "5": "partial"
+                     }
+                 }
+
+            ],
+            "Elective Requirement Only": [
+                {
+                    "course": "English Language and Composition",
+                     "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+          }
+                },
+                {
+                    "course": "English Literature and Composition",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                    } 
+                },
+                {
+                    "course": "Government and Politics: United States",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "elective credit",
+                        "5": "elective credit"
+                     }
+                }
+            ]
+
+            
+            
+        }
 
     }
 }
