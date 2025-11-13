@@ -610,6 +610,335 @@
     },
 
     "Sixth": {
+        "Requirements": {
+            "Social Sciences": [
+                {
+                    "course": "African American Studies",
+                    "score": {
+                        "3": "one course toward Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "one course toward Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "one course toward Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "World History",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "Latin: Virgil",
+                    "score": {
+                        "3": "one course toward Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "one course toward Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "one course toward Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "Latin: Literature",
+                    "score": {
+                        "3": "one course toward Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "one course toward Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "one course toward Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "Spanish Literature",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "one course toward Social Analysis",
+                        "5": "one course toward Social Analysis"
+                    }
+                },
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "one course toward Social Analysis",
+                        "5": "one course toward Social Analysis"
+                    }
+                },
+                {
+                    "course": "Government and Politics: United States",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "one course toward Social Analysis",
+                        "5": "one course toward Social Analysis"
+                    }
+                },
+                {
+                    "course": "Government and Politics: Comparative",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "one course toward Social Analysis",
+                        "5": "one course toward Social Analysis"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "elective credit",
+                        "4": "one course toward Social Analysis",
+                        "5": "one course toward Social Analysis"
+                    }
+                }
+            ],
+            "Language Other Than English": [
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                }
+            ],
+            "Art": [
+                {
+                    "course": "Art Studio Drawing",
+                    "score": {
+                        "3": "two courses towards Art Making",
+                        "4": "two courses towards Art Making",
+                        "5": "two courses towards Art Making"
+                    }
+                },
+                {
+                    "course": "Art Studio 2D Art and Design",
+                    "score": {
+                        "3": "two courses towards Art Making",
+                        "4": "two courses towards Art Making",
+                        "5": "two courses towards Art Making"
+                    }
+                },
+                {
+                    "course": "Art Studio 3D Art and Design",
+                    "score": {
+                        "3": "two courses towards Art Making",
+                        "4": "two courses towards Art Making",
+                        "5": "two courses towards Art Making"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "4": "two courses towards Narrative, Aesthetic, and Historical Reasoning",
+                        "5": "two courses towards Narrative, Aesthetic, and Historical Reasoning"
+                    }
+                }
+            ],
+            "Natural Sciences": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "4": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "5": "two courses towards Analytical Methodologies/ Scientific Method"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "4": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "5": "two courses towards Analytical Methodologies/ Scientific Method"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "one course toward Analytical Methodologies/ Scientific Method",
+                        "4": "one course toward Analytical Methodologies/ Scientific Method",
+                        "5": "one course toward Analytical Methodologies/ Scientific Method"
+                    }
+                },
+                {
+                    "course": "Physics 1",
+                    "score": {
+                        "3": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "4": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "5": "two courses towards Analytical Methodologies/ Scientific Method"
+                    }
+                },
+                {
+                    "course": "Physics 2",
+                    "score": {
+                        "3": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "4": "two courses towards Analytical Methodologies/ Scientific Method",
+                        "5": "two courses towards Analytical Methodologies/ Scientific Method"
+                    }
+                },
+                {
+                    "course": "Physics C Mechanics",
+                    "score": {
+                        "3": "one course toward Analytical Methodologies/ Scientific Method",
+                        "4": "one course toward Analytical Methodologies/ Scientific Method",
+                        "5": "one course toward Analytical Methodologies/ Scientific Method"
+                    }
+                },
+                {
+                    "course": "Physics C ELectricity and Magnetism",
+                    "score": {
+                        "3": "one course toward Analytical Methodologies/ Scientific Method",
+                        "4": "one course toward Analytical Methodologies/ Scientific Method",
+                        "5": "one course toward Analytical Methodologies/ Scientific Method"
+                    }
+                }
+                
+            ],
+            "Technology": [
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "Elective credit",
+                        "4": "one course toward Information Technology Fluency",
+                        "5": "one course toward Information Technology Fluency"
+                    }
+                },
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "Elective credit",
+                        "4": "one course toward Information Technology Fluency",
+                        "5": "one course toward Information Technology Fluency"
+                    }
+                }
+            ],
+            "Mathematics": [
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "one course toward Structured Reasoning",
+                        "4": "one course toward Structured Reasoning",
+                        "5": "one course toward Structured Reasoning"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "one course toward Structured Reasoning",
+                        "4": "one course toward Structured Reasoning",
+                        "5": "one course toward Structured Reasoning"
+                    }
+                },
+                {
+                    "course": "Precalculus",
+                    "score": {
+                        "4": "one course toward Structured Reasoning",
+                        "5": "one course toward Structured Reasoning"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "one course toward Exploring Data",
+                        "4": "one course toward Exploring Data",
+                        "5": "one course toward Exploring Data"
+                    }
+                }
+            ],
+            "No Credit": [
+                {
+                    "course": "English Composition & Literature",
+                    "score": {
+                        "3": "elective credit and meets ELWR Requirement",
+                        "4": "elective credit and meets ELWR Requirement",
+                        "5": "elective credit and meets ELWR Requirement"
+                    }
+                },
+                {
+                    "course": "English Language and Composition",
+                    "score": {
+                        "3": "elective credit and meets ELWR Requirement",
+                        "4": "elective credit and meets ELWR Requirement",
+                        "5": "elective credit and meets ELWR Requirement"
+                    }
+                },
+                {
+                    "course": "Research",
+                    "score": {
+                        "3": "no credit and meets ELWR Requirement",
+                        "4": "no credit and meets ELWR Requirement",
+                        "5": "no credit and meets ELWR Requirement"
+                    }
+                },
+                {
+                    "course": "Seminar",
+                    "score": {
+                        "3": "no credit and meets ELWR Requirement",
+                        "4": "no credit and meets ELWR Requirement",
+                        "5": "no credit and meets ELWR Requirement"
+                    }
+                }
+            ]    
+        }
 
     },
 
