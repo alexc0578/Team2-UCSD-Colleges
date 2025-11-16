@@ -6,13 +6,61 @@
         <title>UCSD College Comparison</title>
         <link rel="stylesheet" href="styles.css" type="text/css"/>
         <link rel ="icon" href="" type="image/x-icon" />
-        <script type="text/javascript" src="script.js"></script>
     </head>
 
     <body>
-        <h1>UCSD College Comparison</h1>
-    </body>
+    
+    <div class="header">
+        <h1>UCSD College Guide</h1>
+    </div>
+
+    <div class="college-tabs">
+        [College Tabs Here]
+    </div>
+
+    <div class ="description">
+        [Text Here]
+    </div>
+    
+    <div class="ap-compare">
+        <h3>AP Class Comparison</h3>
+        
+        <!-- Dropdown to select AP course-->
+        <select id="apCourseSelect">
+                <option value="">Select your AP course</option>
+            </select>
+        
+        <!-- Dropdown to select score (3,4 or 5)-->
+        <select id="apScoreSelect">
+            <option value="">Select your score</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <button id="addCourseBtn">Add Course</button>
+
+        <!-- Shows user's inputted courses-->
+        <h4>Courses</h4>
+        <div id="selectedCourses"></div>
+
+        <button id="calculateBtn">Check AP Credits</button>
+        
+        <hr>
+
+        <!-- Shows user's AP course comparison across colleges results-->
+        <h4>Results</h4>
+        <pre id="results"></pre>
+    </div>
+
+    <div class="quiz">
+        [Quiz Code]
+    </div>
+
     <footer>
         <p>Made by: Alexandra Cody, Renee Agatep, Emi Yee, Annika Gangrade, & Minami Jones</p>
     </footer>
+
+    <script type="module" src="script.js" defer></script>
+</body>
 </html>
