@@ -1,93 +1,63 @@
-/* ---------- RESET / BASE ---------- */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
-  background-color: #006a96;          /* body blue like image 2 */
-  color: #182b49;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    background-color: #e0ecf7;
 }
 
-/* keep everything centered & same widths as before */
-.site-header,
-.college-tabs,
-.page-main,
-footer {
-  max-width: 1100px;
-  margin: 0 auto;
+.header {
+    background-color: #9bb7e0;
+    padding: 40px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
 }
-
-/* ---------- HEADER (same layout, new-ish colors) ---------- */
-
-.site-header {
-  background-color: #182b49;          /* UCSD navy */
-  color: #ffffff;
-  padding: 1.4rem 1.5rem;
-  border-bottom: 4px solid #ffcd00;   /* gold accent line */
-}
-
-.logo-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.ucsd-wordmark {
-  font-size: 1.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
-.tool-subtitle {
-  margin-top: 0.25rem;
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-
-/* ---------- COLLEGE TABS (layout same) ---------- */
 
 .college-tabs {
-  background-color: #078fbd;   /* lighter than body */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #bcd0ec;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.college-tabs .tab {
-  cursor: pointer;
-  border: none;
-  border-radius: 999px;
-  padding: 0.3rem 1rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  background-color: rgba(24, 43, 73, 0.15);
-  color: #ffffff;
-  letter-spacing: 0.03em;
-  transition: background-color 0.15s ease, transform 0.1s ease,
-    box-shadow 0.1s ease;
+.description {
+    background-color: #d2e1f3;
+    width: 70%;
+    margin: 40px auto;
+    padding: 25px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid #9bb7e0;
+    border-radius: 8px;
 }
 
-.college-tabs .tab:hover {
-  background-color: rgba(255, 205, 0, 0.9);
-  color: #182b49;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+.ap-compare {
+    background-color: #d2e1f3;
+    width: 50%;
+    margin: 40px auto;
+    padding: 40px;
+    font-size: 28px;
+    text-align: center;
+    border: 2px solid #9bb7e0;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
 
-.college-tabs .tab.active {
-  background-color: #ffcd00;
-  color: #182b49;
+.quiz {
+    background-color: #d2e1f3;
+    width: 50%;
+    margin: 40px auto;
+    padding: 40px;
+    font-size: 28px;
+    text-align: center;
+    border: 2px solid #9bb7e0;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
 
+<<<<<<< HEAD
 /* ---------- MAIN AREA (layout same, bg now shows blue body) ---------- */
 
 .page-main {
@@ -199,7 +169,7 @@ button {
 .quiz-form button[type="submit"]:hover {
   background-color: #f0f0f0;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-1px);
+  transform: translateY(-1px); 
 }
 
 /* Compare button – big gold pill */
@@ -315,4 +285,8 @@ footer p {
   .quiz-actions {
     justify-content: flex-start;
   }
+=======
+.quiz-box:hover {
+    background-color: #c7d8ee;
+>>>>>>> 0641097afbcf62d3c7dcd5e7135506e1f082fe58
 }

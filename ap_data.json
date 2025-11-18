@@ -87,7 +87,7 @@
                 }
             ],
 
-            "Social Sience":[
+            "Social Science":[
                 {
                     "course": "African American Studies",
                     "score": {
@@ -121,7 +121,7 @@
                     }
                 },
                 {
-                    "course": "Government and Politics: Comparative",
+                    "course": "Comparative Government and Politics",
                     "score": {
                         "3": "meets one of two courses required in social science",
                         "4": "meets one of two courses required in social science",
@@ -184,7 +184,9 @@
                     "score": {
                         "4": "meets language proficiency requirement",
                         "5": "meets language proficiency requirement"
-                    },
+                    }
+                },
+                {
                     "course": "German Language and Culture",
                     "score": {
                         "4": "meets language proficiency requirement",
@@ -240,7 +242,7 @@
                     }
                 },
                 {
-                    "course": "English Composition & Literature",
+                    "course": "English Literature and Composition",
                     "score": {
                         "3": "elective credit only",
                         "4": "elective credit only",
@@ -248,7 +250,7 @@
                     }
                 },
                 {
-                    "course": "English Language & Composition",
+                    "course": "English Language and Composition",
                     "score": {
                         "3": "elective credit only",
                         "4": "elective credit only",
@@ -303,7 +305,297 @@
     },
     
     "John Muir": {
+        "Requirements": {
+            "Math or Natural Sciences": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "theme 2: BILD 10",
+                        "4": "theme 2: BILD 1, 2, and 3",
+                        "5": "theme 2: BILD 1, 2, and 3"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "theme 3: CHEM 4",
+                        "4": "theme 3: CHEM 4 or 11",
+                        "5": "theme 3: CHEM 6A, 6B, or 6C"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score": {
+                        "3": "theme 3: PHYS 10",
+                        "4": "theme 3: PHYS 10",
+                        "5": "theme 3: PHYS 10"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "theme 3: PHYS 10",
+                        "4": "theme 3: PHYS 10",
+                        "5": "theme 3: PHYS 10"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "theme 3: PHYS 1A",
+                        "4": "theme 3: PHYS 1A or 2A",
+                        "5": "theme 3: PHYS 1A or 2A"
+                    }
+                },
+                {
+                    "course": "Physics C: Electricity and Magnetism",
+                    "score": {
+                        "3": "theme 3: PHYS 1B",
+                        "4": "theme 3: PHYS 1B or 2B",
+                        "5": "theme 3: PHYS 1B or 2B"
+                    }
+                },
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "theme 1: MATH 10A",
+                        "4": "theme 1: MATH 20A or 10A",
+                        "5": "theme 1: MATH 20A or 10A"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "theme 1: MATH 20A and 10B",
+                        "4": "theme 1: MATH 20A, 20B, or MATH 10A, 10B",
+                        "5": "theme 1: MATH 20A, 20B, or MATH 10A, 10B"
+                    }
+                }
+            ],
+            "Social Sciences": [
 
+            ],
+            "Fine Arts": [
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "2 courses in a visual arts theme in fine arts",
+                        "4": "2 courses in a visual arts theme in fine arts",
+                        "5": "2 courses in a visual arts theme in fine arts"
+                    }
+                },
+                {
+                    "course": "Art History",
+                    "score": {
+                        "3": "2 courses in a visual arts theme in fine arts",
+                        "4": "2 courses in a visual arts theme in fine arts",
+                        "5": "2 courses in a visual arts theme in fine arts"
+                    }
+                },
+                {
+                    "course": "Music",
+                    "score": {
+                        "3": "2 courses in a music theme in fine arts",
+                        "4": "2 courses in a music theme in fine arts",
+                        "5": "2 courses in a music theme in fine arts"
+                    }
+                }
+
+            ],
+            "Humanities": [
+
+            ],
+            "Language Other Than English": [
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "may petition for 2 courses in foreign language category",
+                        "4": "may petition for 2 courses in foreign language category",
+                        "5": "may petition for 2 courses in foreign language category"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "foreign language theme: LIFR 1C/1CX",
+                        "4": "foreign language theme: LTFR 2A",
+                        "5": "foreign language theme: LTFR 2A and 2B"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "meets language proficiency requirement",
+                        "5": "meets language proficiency requirement"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "3": "foreign language theme: LIGM 1C/1CX",
+                        "4": "foreign language theme: LTGM 2A",
+                        "5": "foreign language theme: LTGM 2A and 2B"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "may petition for 2 courses in foreign language category",
+                        "4": "may petition for 2 courses in foreign language category",
+                        "5": "may petition for 2 courses in foreign language category"
+                    }
+                },
+                {
+                    "course": "Latin",
+                    "score": {
+                        "3": "foreign language theme: LTLA 1, 2, 3",
+                        "4": "foreign language theme: LTLA 1, 2, 3",
+                        "5": "foreign language theme: LTLA 1, 2, 3"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "foreign language theme: LISP 1C/1CX",
+                        "4": "foreign language theme: LTSP 2A",
+                        "5": "foreign language theme: LTSP 2A and 2B"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "foreign language theme: LISP 1D/X and LTSP 2A",
+                        "4": "foreign language theme: LTSP 2A and 2B",
+                        "5": "foreign language theme: LTSP 2B and 2C"
+                    }
+                }
+
+            ],
+            "Elective Requirement Only": [
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "English Literature and Composition",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "8 units of elective credit",
+                        "5": "8 units of elective credit"
+                    }
+                },
+                {
+                    "course": "English Language and Composition",
+                    "score": {
+                        "3": "8 units of elective credit",
+                        "4": "8 units of elective credit",
+                        "5": "8 units of elective credit"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Comparative Government and Politics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "United States Government and Politics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Human Geography",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                },
+                {
+                    "course": "World History",
+                    "score": {
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
+                    }
+                }
+            ]
+
+        }
     },
 
     "Thurgood Marshall": {
@@ -311,7 +603,326 @@
     },
 
     "Earl Warren": {
-
+        "Requirements": {
+            "Quantitative and Formal Skills": [
+                {
+                    "course": "Computer Science Principles",
+                    "score": {
+                        "3": "two courses towards Science and Technology PofC",
+                        "4": "two courses toward quantitative/formal skills and/or Science & Technology PofC",
+                        "5": "two courses toward quantitative/formal skills and/or Science & Technology PofC"
+                    }
+                },
+                {
+                    "course": "Computer Science A",
+                    "score": {
+                        "3": "twp courses toward Science and Technology PofC",
+                        "4": "two courses toward quantitative/formal skills and/or Science & Technology PofC",
+                        "5": "two courses toward quantitative/formal skills and/or Science & Technology PofC"
+                    }
+                },
+                {
+                    "course": "Calculus AB",
+                    "score": {
+                        "3": "one course toward Formal Skills requirement",
+                        "4": "one course toward Formal Skills requirement and/or Math PofC",
+                        "5": "one course toward Formal Skills requirement and/or Math PofC"
+                    }
+                },
+                {
+                    "course": "Calculus BC",
+                    "score": {
+                        "3": "two courses toward formal Skills requirement and/or Math PofC",
+                        "4": "two courses toward formal Skills requirement and/or Math PofC",
+                        "5": "two courses toward formal Skills requirement and/or Math PofC"
+                    }
+                },
+                {
+                    "course": "Statistics",
+                    "score": {
+                        "3": "one course toward Formal Skills",
+                        "4": "one course toward Formal Skills",
+                        "5": "one course toward Formal Skills"
+                    }
+                }
+            ],
+            "Natural Science": [
+                {
+                    "course": "Biology",
+                    "score": {
+                        "3": "two courses toward Fundamentals of Biology or Science and Technology PofC",
+                        "4": "two courses toward Biology, Fundamentals of Biology, or Science and Technology PofC",
+                        "5": "two courses toward Biology, Fundamentals of Biology, or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Chemistry",
+                    "score": {
+                        "3": "two courses toward Science and Technology PofC",
+                        "4": "two courses toward Science and Technology PofC",
+                        "5": "two courses toward Chemistry or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics 1: Algebra-Based",
+                    "score": {
+                        "3": "two courses toward Science and Technology PofC",
+                        "4": "two courses toward Science and Technology PofC",
+                        "5": "two courses toward Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics 2: Algebra-Based",
+                    "score": {
+                        "3": "two courses toward Science and Technology PofC",
+                        "4": "two courses toward Science and Technology PofC",
+                        "5": "two courses toward Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics C: Mechanics",
+                    "score": {
+                        "3": "one courses toward Science and Technology PofC",
+                        "4": "one courses toward Physics or Science and Technology PofC",
+                        "5": "one courses toward Physics or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Physics C: Electricity and Magnetism",
+                    "score": {
+                        "3": "one courses toward Science and Technology PofC",
+                        "4": "one courses toward Physics or Science and Technology PofC",
+                        "5": "one courses toward Physics or Science and Technology PofC"
+                    }
+                },
+                {
+                    "course": "Environmental Science",
+                    "score": {
+                        "3": "one course toward Science and Technology PofC",
+                        "4": "one course toward Science and Technology PofC",
+                        "5": "one course toward Science and Technology PofC"
+                    }
+                }
+            ],
+            "Language": [
+                {
+                    "course": "Chinese Language and Culture",
+                    "score": {
+                        "3": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "4": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "5": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Japanese Language and Culture",
+                    "score": {
+                        "3": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "4": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study",
+                        "5": "twp courses for Chinese, Japanese, or AAPI PofC, or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "French Language and Culture",
+                    "score": {
+                        "3": "two courses for European Studies PofC or one for the same Area Study",
+                        "4": "two courses for European Studies PofC or one for the same Area Study",
+                        "5": "two courses for European Studies PofC or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "German Language and Culture",
+                    "score": {
+                        "3": "two courses for European Studies PofC or one for the same Area Study",
+                        "4": "two courses for European Studies PofC or one for the same Area Study",
+                        "5": "two courses for European Studies PofC or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Italian Language and Culture",
+                    "score": {
+                        "3": "two courses for European Studies PofC or one for the same Area Study",
+                        "4": "two courses for European Studies PofC or one for the same Area Study",
+                        "5": "two courses for European Studies PofC or one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Spanish Language and Culture",
+                    "score": {
+                        "3": "two courses toward a Chicanx/LatinX, Latin American, or Euro Studies PofC OR one of the same Humanities-only Area Study",
+                        "4": "two courses toward a Chicanx/LatinX, Latin American, or Euro Studies PofC OR one of the same Humanities-only Area Study",
+                        "5": "two courses toward a Chicanx/LatinX, Latin American, or Euro Studies PofC OR one of the same Humanities-only Area Study"
+                    }
+                },
+                {
+                    "course": "Spanish Literature and Culture",
+                    "score": {
+                        "3": "two courses for Chicanx/LatinX, Latin American, or Euro Studies PofC, OR one for the same Humanities-only Area Study",
+                        "4": "two courses for Chicanx/LatinX, Latin American, Euro, Literature, or Humanities PofC, OR one course for the same Humanities-only Area Study",
+                        "5": "two courses for Chicanx/LatinX, Latin American, Euro, Lit, or Humanities PofC, OR one course for the same Humanities-only Area Study"
+                    }
+                },
+                {
+                    "course": "Latin: Literature",
+                    "score": {
+                        "3": "one course toward Humanities or Literature PofC or Area Study",
+                        "4": "one course toward Humanities or Literature PofC or Area Study",
+                        "5": "one course toward Humanities or Literature PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Latin: Virgil",
+                    "score": {
+                        "3": "one course toward Humanities or Literature PofC or Area Study",
+                        "4": "one course toward Humanities or Literature PofC or Area Study",
+                        "5": "one course toward Humanities or Literature PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "English Composition & Literature",
+                    "score": {
+                        "3": "two courses toward Humanities or Literature PofC or one course Area Study",
+                        "4": "two courses toward Humanities or Literature PofC or one course Area Study",
+                        "5": "two courses toward Humanities or Literature PofC or one course Area Study"
+                    }
+                }
+            ],
+            "Fine Arts": [
+                {
+                    "course": "Art Studio",
+                    "score": {
+                        "3": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "4": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "5": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Art History",
+                    "score": {
+                        "3": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "4": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study",
+                        "5": "two courses for Visual Arts or Humanities PofC, OR one for the same Area Study"
+                    }
+                },
+                {
+                    "course": "Music Theory",
+                    "score": {
+                        "3": "two courses toward Humanities or Music PofC or one toward the same Area Study",
+                        "4": "two courses toward Humanities or Music PofC or one toward the same Area Study",
+                        "5": "two courses toward Humanities or Music PofC or one toward the same Area Study"
+                    }
+                }
+            ],
+            "Social Sciences": [
+                {
+                    "course": "African American Studies",
+                    "score": {
+                        "3": "one course toward African-American Studies PofC or Area Studies",
+                        "4": "one course toward African-American Studies PofC or Area Studies",
+                        "5": "one course toward African-American Studies PofC or Area Studies"
+                    }
+                },
+                {
+                    "course": "Macroeconomics",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "5": "one course toward Economics or Perspectives of Social Science PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Microeconomics",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science PofC or Area Study",
+                        "5": "one course toward Economics or Perspectives of Social Science PofC or Economics Area Study"
+                    }
+                },
+                {
+                    "course": "United States Government and Politics",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "5": "one course toward Perspectives of Social Science or Political Science PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "United States History",
+                    "score": {
+                        "3": "two courses toward History or Humanities PofC or Area Study",
+                        "4": "two courses toward History or Humanities PofC or Area Study",
+                        "5": "two courses toward History or Humanities PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "European History",
+                    "score": {
+                        "3": "two courses toward History, European Studies or Humanities PofC or Area Study",
+                        "4": "two courses toward History, European Studies or Humanities PofC or Area Study",
+                        "5": "two courses toward History, European Studies or Humanities PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "World History",
+                    "score": {
+                        "3": "two courses toward History or Humanities PofC or Area Study",
+                        "4": "two courses toward History or Humanities PofC or Area Study",
+                        "5": "two courses toward History or Humanities PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Government and Politics: Comparative",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science or Political Science PofC or Area Study",
+                        "5": "one course toward Perspectives of Social Science or Political Science PofC or Area Study"
+                    }
+                },
+                {
+                    "course": "Psychology",
+                    "score": {
+                        "3": "one course toward Perspectives of Social Science or Psychology PofC or Area Study",
+                        "4": "one course toward Perspectives of Social Science or Psychology PofC or Psychology Area Study",
+                        "5": "one course toward Perspectives of Social Science or Psychology PofC or Psychology Area Study"
+                    }
+                }
+            ],
+            "Elective Requirement Only": [
+                {
+                    "course": "English Language & Composition",
+                    "score": {
+                        "3": "Elective credit only",
+                        "4": "Elective credit only",
+                        "5": "Elective credit only"
+                    }
+                },
+                {
+                    "course": "Human Geography",
+                    "score": {
+                        "3": "Elective credit only",
+                        "4": "Elective credit only",
+                        "5": "Elective credit only"
+                    }
+                }
+            ],
+            "No Credit": [
+                {
+                    "course": "Research",
+                    "score": {
+                        "3": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "4": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "5": "Satisfies ELWR Requirement. Not eligible for credit"
+                    }
+                },
+                {
+                    "course": "Seminar",
+                    "score": {
+                        "3": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "4": "Satisfies ELWR Requirement. Not eligible for credit",
+                        "5": "Satisfies ELWR Requirement. Not eligible for credit"
+                    }
+                }
+            ]
+        }
     },
     
     "Eleanor Roosevelt": {
@@ -336,9 +947,9 @@
                 {
                     "course": "Calculus AB",
                     "score": {
-                        "3": "Meets one of two courses required in quantitative/formal skills",
-                        "4": "Meets one of two courses required in quantitative/formal skills",
-                        "5": "Meets one of two courses required in quantitative/formal skills"
+                        "3": "meets one of two courses required in quantitative/formal skills",
+                        "4": "meets one of two courses required in quantitative/formal skills",
+                        "5": "meets one of two courses required in quantitative/formal skills"
                     }
                 },
                 {
@@ -542,7 +1153,7 @@
                     }
                 },
                 {
-                    "course": "Government and Politics: Comparative",
+                    "course": "Comparative Government and Politics",
                     "score": {
                         "3": "elective credit only",
                         "4": "elective credit only",
@@ -582,7 +1193,7 @@
                     }
                 },
                 {
-                    "course": "World History: Modern",
+                    "course": "World History",
                     "score": {
                         "3": "elective credit only",
                         "4": "elective credit only",
@@ -619,25 +1230,25 @@
                 {
                     "course": "Art Studio",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets arts requirement",
+                        "4": "meets arts requirement",
+                        "5": "meets arts requirement"
                     }
                 },
                 {
                     "course": "Art History",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets arts requirement",
+                        "4": "meets arts requirement",
+                        "5": "meets arts requirement"
                     }
                 },
                 {
                     "course": "Music Theory",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets arts requirement",
+                        "4": "meets arts requirement",
+                        "5": "meets arts requirement"
                     }
                 }
             ],
@@ -645,65 +1256,65 @@
                 {
                     "course": "Chinese Language and Culture",
                     "score": {
-                        "3": "partial",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 },
                 {
                     "course": "French Language and Culture",
                     "score": {
-                        "3": "partial",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 },
                 {
                     "course": "German Language and Culture",
                     "score": {
-                        "3": "partial",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 },
                 {
                     "course": "Italian Language and Culture",
                     "score": {
-                        "3": "partial",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 },
                 {
                     "course": "Japanese Language and Culture",
                     "score": {
-                        "3": "partial",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 },
                 {
                     "course": "Latin",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "satisfies 1 course toward humanities requirement",
+                        "5": "satisfies 1 course toward humanities requirement"
                     }
                 },
                 {
                     "course": "Spanish Language and Culture",
                     "score": {
-                        "3": "partial",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 },
                 {
                     "course": "Spanish Literature and Culture",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets humanities requirement",
+                        "4": "meets humanities requirement",
+                        "5": "meets humanities requirement"
                     }
                 }
             ],
@@ -711,57 +1322,57 @@
                 {
                     "course": "Biology",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets natural sciences and engineering requirement",
+                        "4": "meets natural sciences and engineering requirement",
+                        "5": "meets natural sciences and engineering requirement"
                     }
                 },
                 {
                     "course": "Chemistry",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets natural sciences and engineering requirement",
+                        "4": "meets natural sciences and engineering requirement",
+                        "5": "meets natural sciences and engineering requirement"
                     }
                 },
                 {
                     "course": "Environmental Science",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward natural sciences and engineering requirement",
+                        "4": "satisfies 1 course toward natural sciences and engineering requirement",
+                        "5": "satisfies 1 course toward natural sciences and engineering requirement"
                     }
                 },
                 {
                     "course": "Physics 1: Algebra-Based",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets natural sciences and engineering requirement",
+                        "4": "meets natural sciences and engineering requirement",
+                        "5": "meets natural sciences and engineering requirement"
                     }
                 },
                 {
                     "course": "Physics 2: Algebra-Based",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets natural sciences and engineering requirement",
+                        "4": "meets natural sciences and engineering requirement",
+                        "5": "meets natural sciences and engineering requirement"
                     }
                 },
                 {
                     "course": "Physics C: Electricity and Magnetism",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward natural sciences and engineering requirement",
+                        "4": "satisfies 1 course toward natural sciences and engineering requirement",
+                        "5": "satisfies 1 course toward natural sciences and engineering requirement"
                     }
                 },
                 {
                     "course": "Physics C: Mechanics",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "satisfies 1 course toward natural sciences and engineering requirement",
+                        "4": "satisfies 1 course toward natural sciences and engineering requirement",
+                        "5": "satisfies 1 course toward natural sciences and engineering requirement"
                     }
                 }
             ],
@@ -769,41 +1380,41 @@
                 {
                     "course": "Computer Science A",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets quantitative reasoning requirement",
+                        "4": "meets quantitative reasoning requirement",
+                        "5": "meets quantitative reasoning requirement"
                     }
                 },
                 {
                     "course": "Computer Science Principles",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets quantitative reasoning requirement",
+                        "4": "meets quantitative reasoning requirement",
+                        "5": "meets quantitative reasoning requirement"
                     }
                 },
                 {
                     "course": "Calculus AB",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward quantitative reasoning requirement",
+                        "4": "satisfies 1 course toward quantitative reasoning requirement",
+                        "5": "satisfies 1 course toward quantitative reasoning requirement"
                     }
                 },
                 {
                     "course": "Calculus BC",
                     "score": {
-                        "3": "complete",
-                        "4": "complete",
-                        "5": "complete"
+                        "3": "meets quantitative reasoning requirement",
+                        "4": "meets quantitative reasoning requirement",
+                        "5": "meets quantitative reasoning requirement"
                     }
                 },
                 {
                     "course": "Statistics",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward quantitative reasoning requirement",
+                        "4": "satisfies 1 course toward quantitative reasoning requirement",
+                        "5": "satisfies 1 course toward quantitative reasoning requirement"
                     }
                 }
             ],
@@ -811,33 +1422,33 @@
                 {
                     "course": "Macroeconomics",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward social sciences requirement",
+                        "4": "satisfies 1 course toward social sciences requirement",
+                        "5": "satisfies 1 course toward social sciences requirement"
                     }
                 },
                 {
                     "course": "Microeconomics",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward social sciences requirement",
+                        "4": "satisfies 1 course toward social sciences requirement",
+                        "5": "satisfies 1 course toward social sciences requirement"
                     }
                 },
                 {
-                    "course": "Government and Politics: Comparative",
+                    "course": "Comparative Government and Politics",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward social sciences requirement",
+                        "4": "satisfies 1 course toward social sciences requirement",
+                        "5": "satisfies 1 course toward social sciences requirement"
                     }
                 },
                 {
                     "course": "Psychology",
                     "score": {
-                        "3": "partial",
-                        "4": "partial",
-                        "5": "partial"
+                        "3": "satisfies 1 course toward social sciences requirement",
+                        "4": "satisfies 1 course toward social sciences requirement",
+                        "5": "satisfies 1 course toward social sciences requirement"
                     }
                 }
             ],
@@ -845,65 +1456,65 @@
                 {
                     "course": "African American Studies",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
                     "course": "English Language and Composition",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
                     "course": "English Literature and Composition",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
                     "course": "European History",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
                     "course": "Human Geography",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
                     "course": "United States Government and Politics",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
                     "course": "United States History",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 },
                 {
-                    "course": "World History: Modern",
+                    "course": "World History",
                     "score": {
-                        "3": "elective credit",
-                        "4": "elective credit",
-                        "5": "elective credit"
+                        "3": "elective credit only",
+                        "4": "elective credit only",
+                        "5": "elective credit only"
                     }
                 }
             ],
