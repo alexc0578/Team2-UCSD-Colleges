@@ -1,93 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>UCSD College Comparison</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>UCSD College Comparison</title>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <link rel ="icon" href="" type="image/x-icon" />
+    </head>
 
-    <link rel="stylesheet" href="styles.css" type="text/css" />
-    <script src="script.js" defer></script>
-  </head>
+    <body>
+    
+    <div class="header">
+        <h1>UCSD College Guide</h1>
+    </div>
 
-  <body>
-    <!-- TOP BAR: "UCSD logo type thing" -->
-    <header class="site-header">
-      <div class="logo-block">
-        <span class="ucsd-wordmark">UC San Diego</span>
-        <span class="tool-subtitle">College AP Credit Explorer</span>
-      </div>
-    </header>
+    <div class="college-tabs">
+        [College Tabs Here]
+    </div>
 
-    <!-- SECOND BAR: eight college tabs -->
-    <nav class="college-tabs">
-      <button class="tab active" data-college="Revelle">Revelle</button>
-      <button class="tab" data-college="John Muir">John Muir</button>
-      <button class="tab" data-college="Thurgood Marshall">Thurgood Marshall</button>
-      <button class="tab" data-college="Earl Warren">Earl Warren</button>
-      <button class="tab" data-college="Eleanor Roosevelt">Eleanor Roosevelt</button>
-      <button class="tab" data-college="Sixth">Sixth</button>
-      <button class="tab" data-college="Seventh">Seventh</button>
-      <button class="tab" data-college="Eighth">Eighth</button>
-    </nav>
-
-    <main class="page-main">
-      <!-- DESCRIPTION CARD -->
-      <section class="intro-card">
-        <h1>UCSD College Comparison</h1>
-        <p>
-          Use this tool to see how your AP scores might apply to the
-          general education requirements in each of UC San Diego’s eight
-          colleges. Enter the AP classes you’ve taken, choose your score,
-          and we’ll show what each college does with that credit.
-        </p>
-      </section>
-
-      <!-- QUIZ CARD -->
-      <section class="quiz-card">
-        <h2>AP Credit Quiz</h2>
-        <p class="quiz-subtext">
-          Add each AP course you’ve taken, then compare how it counts across
-          the colleges.
-        </p>
-
-        <form id="ap-form" class="quiz-form">
-          <label>
-            AP Course name
-            <input
-              type="text"
-              id="course"
-              placeholder="e.g., Calculus AB"
-              required
-            />
-          </label>
-
-          <label>
-            Score
-            <select id="score">
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
+    <div class ="description">
+        [Text Here]
+    </div>
+    
+    <div class="ap-compare">
+        <h3>AP Class Comparison</h3>
+        
+        <!-- Dropdown to select AP course-->
+        <select id="apCourseSelect">
+                <option value="">Select your AP course</option>
             </select>
-          </label>
+        
+        <!-- Dropdown to select score (3,4 or 5)-->
+        <select id="apScoreSelect">
+            <option value="">Select your score</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
 
-          <button type="submit">Add Course</button>
-        </form>
+        <button id="addCourseBtn">Add Course</button>
 
-        <div class="current-courses">
-          <h3>Your AP Courses</h3>
-          <ul id="course-list"></ul>
-        </div>
+        <!-- Shows user's inputted courses-->
+        <h4>Courses</h4>
+        <div id="selectedCourses"></div>
 
-        <div class="quiz-actions">
-          <button id="compare-btn">Compare Across UCSD Colleges</button>
-        </div>
+        <button id="calculateBtn">Check AP Credits</button>
+        
+        <hr>
 
-        <div class="results-wrapper">
-          <h3>Results</h3>
-          <pre id="results"></pre>
-        </div>
-      </section>
-    </main>
+        <!-- Shows user's AP course comparison across colleges results-->
+        <h4>Results</h4>
+        <pre id="results"></pre>
+    </div>
+
+    <div class="quiz">
+        [Quiz Code]
+    </div>
 
     <footer>
       <p>
@@ -95,5 +63,7 @@
         &amp; Minami Jones
       </p>
     </footer>
-  </body>
+
+    <script type="module" src="script.js" defer></script>
+</body>
 </html>

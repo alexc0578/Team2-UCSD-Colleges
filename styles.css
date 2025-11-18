@@ -1,318 +1,62 @@
-/* ---------- RESET / BASE ---------- */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
-  background-color: #006a96;          /* body blue like image 2 */
-  color: #182b49;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    background-color: #e0ecf7;
 }
 
-/* keep everything centered & same widths as before */
-.site-header,
-.college-tabs,
-.page-main,
-footer {
-  max-width: 1100px;
-  margin: 0 auto;
+.header {
+    background-color: #9bb7e0;
+    padding: 40px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
 }
-
-/* ---------- HEADER (same layout, new-ish colors) ---------- */
-
-.site-header {
-  background-color: #182b49;          /* UCSD navy */
-  color: #ffffff;
-  padding: 1.4rem 1.5rem;
-  border-bottom: 4px solid #ffcd00;   /* gold accent line */
-}
-
-.logo-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.ucsd-wordmark {
-  font-size: 1.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
-.tool-subtitle {
-  margin-top: 0.25rem;
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-
-/* ---------- COLLEGE TABS (layout same) ---------- */
 
 .college-tabs {
-  background-color: #078fbd;   /* lighter than body */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #bcd0ec;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.college-tabs .tab {
-  cursor: pointer;
-  border: none;
-  border-radius: 999px;
-  padding: 0.3rem 1rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  background-color: rgba(24, 43, 73, 0.15);
-  color: #ffffff;
-  letter-spacing: 0.03em;
-  transition: background-color 0.15s ease, transform 0.1s ease,
-    box-shadow 0.1s ease;
+.description {
+    background-color: #d2e1f3;
+    width: 70%;
+    margin: 40px auto;
+    padding: 25px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid #9bb7e0;
+    border-radius: 8px;
 }
 
-.college-tabs .tab:hover {
-  background-color: rgba(255, 205, 0, 0.9);
-  color: #182b49;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+.ap-compare {
+    background-color: #d2e1f3;
+    width: 50%;
+    margin: 40px auto;
+    padding: 40px;
+    font-size: 28px;
+    text-align: center;
+    border: 2px solid #9bb7e0;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
 
-.college-tabs .tab.active {
-  background-color: #ffcd00;
-  color: #182b49;
+.quiz {
+    background-color: #d2e1f3;
+    width: 50%;
+    margin: 40px auto;
+    padding: 40px;
+    font-size: 28px;
+    text-align: center;
+    border: 2px solid #9bb7e0;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
 
-/* ---------- MAIN AREA (layout same, bg now shows blue body) ---------- */
-
-.page-main {
-  padding: 2rem 1.5rem 3rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  /* no background-color, so body #006A96 shows around cards */
-}
-
-/* shared card style for description + quiz */
-
-.intro-card,
-.quiz-card {
-  background-color: #f7f7f7;          /* light card on blue body */
-  border-radius: 0.9rem;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(24, 43, 73, 0.12);
-}
-
-.intro-card {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1.6rem 2rem;
-}
-
-.quiz-card {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1.6rem 2rem 2.1rem;
-}
-
-/* ---------- TEXT INSIDE CARDS ---------- */
-
-.intro-card h1 {
-  font-size: 1.7rem;
-  margin-bottom: 0.6rem;
-}
-
-.intro-card p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.quiz-card h2 {
-  font-size: 1.3rem;
-  margin-bottom: 0.3rem;
-}
-
-.quiz-subtext {
-  font-size: 0.92rem;
-  margin-bottom: 1rem;
-  color: #34405c;
-}
-
-/* ---------- FORM (same layout) ---------- */
-
-.quiz-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem 1.2rem;
-  align-items: flex-end;
-  margin-bottom: 1rem;
-}
-
-.quiz-form label {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.9rem;
-}
-
-.quiz-form input[type="text"],
-.quiz-form select {
-  margin-top: 0.25rem;
-  padding: 0.45rem 0.6rem;
-  border-radius: 0.4rem;
-  border: 1px solid #c3c8d2;
-  font-size: 0.95rem;
-  min-width: 180px;
-}
-
-.quiz-form input[type="text"]:focus,
-.quiz-form select:focus {
-  outline: 2px solid #ffcd00;
-  border-color: #ffcd00;
-}
-
-/* ---------- BUTTONS (gold + white like image 2) ---------- */
-
-button {
-  cursor: pointer;
-  border: none;
-  border-radius: 999px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  transition: transform 0.1s ease, box-shadow 0.1s ease,
-    background-color 0.1s ease;
-}
-
-/* "Add Course" button – white pill with border */
-.quiz-form button[type="submit"] {
-  padding: 0.5rem 1.1rem;
-  background-color: #ffffff;
-  color: #182b49;
-  border: 1px solid #c3c8d2;
-}
-
-.quiz-form button[type="submit"]:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-1px);
-}
-
-/* Compare button – big gold pill */
-.quiz-actions {
-  margin-top: 0.8rem;
-  margin-bottom: 0.9rem;
-  display: flex;
-  justify-content: center;
-}
-
-.quiz-actions button {
-  padding: 0.6rem 1.6rem;
-  background-color: #ffcd00;
-  color: #182b49;
-}
-
-.quiz-actions button:hover {
-  background-color: #ffd939;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  transform: translateY(-1px);
-}
-
-button:active {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
-/* ---------- COURSE LIST ---------- */
-
-.current-courses h3 {
-  font-size: 0.96rem;
-  margin-bottom: 0.3rem;
-}
-
-#course-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-#course-list li {
-  background-color: #e6e9f0;
-  color: #182b49;
-  padding: 0.35rem 0.65rem;
-  margin-bottom: 0.25rem;
-  border-radius: 0.35rem;
-  font-size: 0.9rem;
-}
-
-/* ---------- RESULTS BOX ---------- */
-
-.results-wrapper h3 {
-  font-size: 0.98rem;
-  margin-bottom: 0.25rem;
-}
-
-#results {
-  margin-top: 0.1rem;
-  padding: 0.7rem;
-  background-color: #0b1f3b;          /* dark navy code block */
-  color: #fffbf0;
-  font-size: 0.8rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-  max-height: 280px;
-  white-space: pre-wrap;
-}
-
-/* ---------- FOOTER ---------- */
-
-footer {
-  max-width: 1100px;
-  margin: 0.5rem auto 1.5rem;
-  text-align: center;
-  color: #ffffff;
-  font-size: 0.85rem;
-}
-
-footer p {
-  padding-top: 0.75rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-/* ---------- RESPONSIVE ---------- */
-
-@media (max-width: 700px) {
-  .site-header {
-    padding: 1.1rem 1rem;
-  }
-
-  .ucsd-wordmark {
-    font-size: 1.4rem;
-  }
-
-  .page-main {
-    padding: 1.5rem 1rem 2.5rem;
-  }
-
-  .intro-card,
-  .quiz-card {
-    padding: 1.3rem 1.1rem 1.7rem;
-  }
-
-  .quiz-form {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .quiz-form input[type="text"],
-  .quiz-form select {
-    min-width: 100%;
-  }
-
-  .quiz-actions {
-    justify-content: flex-start;
-  }
+.quiz-box:hover {
+    background-color: #c7d8ee;
 }
