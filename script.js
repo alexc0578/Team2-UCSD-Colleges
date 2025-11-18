@@ -62,46 +62,46 @@ document.getElementById("addCourseBtn").addEventListener("click", () => {
 // Function to compare AP courses for an INDIVIDUAL COLLEGE's requirements
 // ---------------------------------------------------------
 function compareAPs(userCourses, requirements) {
-    const result = {};
+  const result = {};
 
-    userCourses.forEach(userCourse => {
-        let found = false;
+  userCourses.forEach((userCourse) => {
+    let found = false;
 
-        // Loop through the requirements of this college
-        for (const [requirement, courses] of Object.entries(requirements)) {
-          for (const courseObj of courses) {
-            // Check if current user course matches a requirement-satisfying course
-            if (courseObj.course === userCourse.course) {
-              found = true;
-              let status = "no credit"; //default status
+    // Loop through the requirements of this college
+    for (const [requirement, courses] of Object.entries(requirements)) {
+      for (const courseObj of courses) {
+        // Check if current user course matches a requirement-satisfying course
+        if (courseObj.course === userCourse.course) {
+          found = true;
+          let status = "no credit"; // default status
 
-              // Check if valid score exists for current course
-              if (courseObj.score && courseObj.score[userCourse.score]) {
-                status = courseObj.score[userCourse.score]; // Change status based on score ("parcial/complete")
-              } else if (requirement === "No Credit") {
-                status = "no credit";
-              }
+          // Check if valid score exists for current course
+          if (courseObj.score && courseObj.score[userCourse.score]) {
+            status = courseObj.score[userCourse.score]; // e.g., "partial", "complete"
+          } else if (requirement === "No Credit") {
+            status = "no credit";
+          }
 
-              // Initialize the requirement status to result if not added already
-              if (!result[requirement]) {
-                result[requirement] = [];
-              }
+          // Initialize the requirement in result if not added already
+          if (!result[requirement]) {
+            result[requirement] = [];
+          }
 
-              // Add the course comparison result to corresponding requirement
-              result[requirement].push({
-                course: userCourse.course,
-                score: userCourse.score,
-                status: status
-              });
+          // Add this course result to that requirement
+          result[requirement].push({
+            course: userCourse.course,
+            score: userCourse.score,
+            status: status,
+          });
 
-              break; // Stop the loop for courses in that category
-            }
+          break; // stop searching this requirement's courses
+        }
       }
 
-      if (found) break; // If course is found, don't search other categories
+      if (found) break; // if course was found, no need to check other requirements
     }
 
-    // If course not found in any category, mark as "unrecognized"
+    // If course never matched, mark as "Unrecognized"
     if (!found) {
       if (!result["Unrecognized"]) {
         result["Unrecognized"] = [];
@@ -109,7 +109,7 @@ function compareAPs(userCourses, requirements) {
       result["Unrecognized"].push({
         course: userCourse.course,
         score: userCourse.score,
-        status: "unknown course"
+        status: "unknown course",
       });
     }
   });
@@ -121,9 +121,8 @@ function compareAPs(userCourses, requirements) {
 // Function to compare AP courses across ALL COLLEGES' requirements
 // ---------------------------------------------------------
 function compareAllAPs(userCourses, requirements) {
-  const collegeResults = [];
+  const collegeResults = {};
 
-  // Loop through colleges in requirements and check for that AP course using compareAPs
   for (const [collegeName, collegeData] of Object.entries(requirements)) {
     if (collegeData.Requirements && Object.keys(collegeData.Requirements).length > 0) {
       collegeResults[collegeName] = compareAPs(userCourses, collegeData.Requirements);
@@ -132,7 +131,6 @@ function compareAllAPs(userCourses, requirements) {
     }
   }
 
-  // Returns a nested object
   return collegeResults;
 }
 
