@@ -84,11 +84,11 @@ if (typeof document !== "undefined") {
       const collegeResult = allResults[selectedCollege];
 
       let displayText;
-      if (typeof collegeResult === "string") {
+      if (typeof allResults === "string") {
         // e.g., "No AP equivalent in requirement Data"
-        displayText = collegeResult;
+        displayText = allResults;
       } else {
-        displayText = JSON.stringify(collegeResult, null, 2);
+        displayText = JSON.stringify(allResults, null, 2);
       }
 
       resultsEl.textContent = displayText;

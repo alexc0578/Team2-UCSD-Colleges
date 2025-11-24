@@ -393,7 +393,7 @@
                     }
                 },
                 {
-                    "course": "Music",
+                    "course": "Music Theory",
                     "score": {
                         "3": "2 courses in a music theme in fine arts",
                         "4": "2 courses in a music theme in fine arts",
@@ -762,15 +762,7 @@
                     }
                 },
                 {
-                    "course": "Latin: Literature",
-                    "score": {
-                        "3": "one course toward Humanities or Literature PofC or Area Study",
-                        "4": "one course toward Humanities or Literature PofC or Area Study",
-                        "5": "one course toward Humanities or Literature PofC or Area Study"
-                    }
-                },
-                {
-                    "course": "Latin: Virgil",
+                    "course": "Latin",
                     "score": {
                         "3": "one course toward Humanities or Literature PofC or Area Study",
                         "4": "one course toward Humanities or Literature PofC or Area Study",
@@ -1256,15 +1248,7 @@
                     }
                 },
                 {
-                    "course": "Latin: Virgil",
-                    "score": {
-                        "3": "one course toward Narrative, Aesthetic, and Historical Reasoning",
-                        "4": "one course toward Narrative, Aesthetic, and Historical Reasoning",
-                        "5": "one course toward Narrative, Aesthetic, and Historical Reasoning"
-                    }
-                },
-                {
-                    "course": "Latin: Literature",
+                    "course": "Latin",
                     "score": {
                         "3": "one course toward Narrative, Aesthetic, and Historical Reasoning",
                         "4": "one course toward Narrative, Aesthetic, and Historical Reasoning",
@@ -1431,7 +1415,7 @@
                     }
                 },
                 {
-                    "course": "Physics 1",
+                    "course": "Physics 1: Algebra-Based",
                     "score": {
                         "3": "two courses towards Analytical Methodologies/ Scientific Method",
                         "4": "two courses towards Analytical Methodologies/ Scientific Method",
@@ -1439,7 +1423,7 @@
                     }
                 },
                 {
-                    "course": "Physics 2",
+                    "course": "Physics 2: Algebra-Based",
                     "score": {
                         "3": "two courses towards Analytical Methodologies/ Scientific Method",
                         "4": "two courses towards Analytical Methodologies/ Scientific Method",
@@ -1939,7 +1923,7 @@
                     }
                 },
                 {
-                    "course": "Latin (Virgil/Literature)",
+                    "course": "Latin",
                     "score": {
                         "3": "partial",
                         "4": "partial",
