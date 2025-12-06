@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <!-- TOP BAR: "UCSD logo type thing" -->
+    <!-- TOP BAR -->
     <header class="site-header">
       <div class="logo-block">
         <span class="ucsd-wordmark">UC San Diego</span>
@@ -18,16 +18,16 @@
       </div>
     </header>
 
-    <!-- SECOND BAR: eight college tabs -->
+    <!-- COLLEGE TABS -->
     <nav class="college-tabs">
-      <button class="tab active" data-college="Revelle">Revelle</button>
-      <button class="tab" data-college="John Muir">John Muir</button>
-      <button class="tab" data-college="Thurgood Marshall">Thurgood Marshall</button>
-      <button class="tab" data-college="Earl Warren">Earl Warren</button>
-      <button class="tab" data-college="Eleanor Roosevelt">Eleanor Roosevelt</button>
-      <button class="tab" data-college="Sixth">Sixth</button>
-      <button class="tab" data-college="Seventh">Seventh</button>
-      <button class="tab" data-college="Eighth">Eighth</button>
+      <button type="button" class="tab active" data-college="Revelle">Revelle</button>
+      <button type="button" class="tab" data-college="John Muir">John Muir</button>
+      <button type="button" class="tab" data-college="Thurgood Marshall">Thurgood Marshall</button>
+      <button type="button" class="tab" data-college="Earl Warren">Earl Warren</button>
+      <button type="button" class="tab" data-college="Eleanor Roosevelt">Eleanor Roosevelt</button>
+      <button type="button" class="tab" data-college="Sixth">Sixth</button>
+      <button type="button" class="tab" data-college="Seventh">Seventh</button>
+      <button type="button" class="tab" data-college="Eighth">Eighth</button>
     </nav>
 
     <main class="page-main">
@@ -54,43 +54,44 @@
           <label>
             AP Course name
             <select id="course">
-                <option value="African American Studies">African American Studies</option>
-                <option value="Art Studio">Art Studio</option>
-                <option value="Art History">Art History</option>
-                <option value="Biology">Biology</option>
-                <option value="Calculus AB">Calculus AB</option>
-                <option value="Calculus BC">Calculus BC</option>
-                <option value="Chemistry">Chemistry</option>
-                <option value="Chinese Language and Culture">Chinese Language and Culture</option>
-                <option value="Comparative Government and Politics">Comparative Government and Politics</option>
-                <option value="Computer Science A">Computer Science A</option>
-                <option value="Computer Science Principles">Computer Science Principles</option>
-                <option value="English Literature and Composition">English Literature and Composition</option>
-                <option value="English Language and Composition">English Language and Composition</option>
-                <option value="European History">European History</option>
-                <option value="French Language and Culture">French Language and Culture</option>
-                <option value="German Language and Culture">German Language and Culture</option>
-                <option value="Human Geography">Human Geography</option>
-                <option value="Italian Language and Culture">Italian Language and Culture</option>
-                <option value="Japanese Language and Culture">Japanese Language and Culture</option>
-                <option value="Latin">Latin</option>
-                <option value="Macroeconomics">Macroeconomics</option>
-                <option value="Microeconomics">Microeconomics</option>
-                <option value="Music Theory">Music Theory</option>
-                <option value="Physics 1: Algebra-Based">Physics 1: Algebra-Based</option>
-                <option value="Physics 2: Algebra-Based">Physics 2: Algebra-Based</option>
-                <option value="Physics C: Electricity and Magnetism">Physics C: Electricity and Magnetism</option>
-                <option value="Physics C: Mechanics">Physics C: Mechanics</option>
-                <option value="Precalculus">Precalculus</option>
-                <option value="Psychology">Psychology</option>
-                <option value="Research">Research</option>
-                <option value="Seminar">Seminar</option>
-                <option value="Spanish Language and Culture">Spanish Language and Culture</option>
-                <option value="Spanish Literature and Culture">Spanish Literature and Culture</option>
-                <option value="Statistics">Statistics</option>
-                <option value="World History">World History</option>
-                <option value="United States Government and Politics">United States Government and Politics</option>
-                <option value="United States History">United States History</option>
+              <option value="" selected disabled>Select an AP course</option>
+              <option value="African American Studies">African American Studies</option>
+              <option value="Art Studio">Art Studio</option>
+              <option value="Art History">Art History</option>
+              <option value="Biology">Biology</option>
+              <option value="Calculus AB">Calculus AB</option>
+              <option value="Calculus BC">Calculus BC</option>
+              <option value="Chemistry">Chemistry</option>
+              <option value="Chinese Language and Culture">Chinese Language and Culture</option>
+              <option value="Comparative Government and Politics">Comparative Government and Politics</option>
+              <option value="Computer Science A">Computer Science A</option>
+              <option value="Computer Science Principles">Computer Science Principles</option>
+              <option value="English Literature and Composition">English Literature and Composition</option>
+              <option value="English Language and Composition">English Language and Composition</option>
+              <option value="European History">European History</option>
+              <option value="French Language and Culture">French Language and Culture</option>
+              <option value="German Language and Culture">German Language and Culture</option>
+              <option value="Human Geography">Human Geography</option>
+              <option value="Italian Language and Culture">Italian Language and Culture</option>
+              <option value="Japanese Language and Culture">Japanese Language and Culture</option>
+              <option value="Latin">Latin</option>
+              <option value="Macroeconomics">Macroeconomics</option>
+              <option value="Microeconomics">Microeconomics</option>
+              <option value="Music Theory">Music Theory</option>
+              <option value="Physics 1: Algebra-Based">Physics 1: Algebra-Based</option>
+              <option value="Physics 2: Algebra-Based">Physics 2: Algebra-Based</option>
+              <option value="Physics C: Electricity and Magnetism">Physics C: Electricity and Magnetism</option>
+              <option value="Physics C: Mechanics">Physics C: Mechanics</option>
+              <option value="Precalculus">Precalculus</option>
+              <option value="Psychology">Psychology</option>
+              <option value="Research">Research</option>
+              <option value="Seminar">Seminar</option>
+              <option value="Spanish Language and Culture">Spanish Language and Culture</option>
+              <option value="Spanish Literature and Culture">Spanish Literature and Culture</option>
+              <option value="Statistics">Statistics</option>
+              <option value="World History">World History</option>
+              <option value="United States Government and Politics">United States Government and Politics</option>
+              <option value="United States History">United States History</option>
             </select>
           </label>
 
@@ -112,7 +113,7 @@
         </div>
 
         <div class="quiz-actions">
-          <button id="compare-btn">Compare Across UCSD Colleges</button>
+          <button type="button" id="compare-btn">Compare Across UCSD Colleges</button>
         </div>
 
         <div class="results-wrapper">
@@ -127,3 +128,6 @@
         Made by: Alexandra Cody, Renee Agatep, Emi Yee, Annika Gangrade,
         &amp; Minami Jones
       </p>
+    </footer>
+  </body>
+</html>
